@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o"
+  "CMakeFiles/enginePlusPlus.dir/Transform.cpp.o"
+  "CMakeFiles/enginePlusPlus.dir/Vector.cpp.o"
   "CMakeFiles/enginePlusPlus.dir/main.cpp.o"
   "enginePlusPlus"
   "enginePlusPlus.pdb"

@@ -79,21 +79,66 @@ CMakeFiles/enginePlusPlus.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enginePlusPlus.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zemlia/Документы/Projects/enginePlusPlus/main.cpp -o CMakeFiles/enginePlusPlus.dir/main.cpp.s
 
+CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o: CMakeFiles/enginePlusPlus.dir/flags.make
+CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o: ../GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o -c /home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp
+
+CMakeFiles/enginePlusPlus.dir/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enginePlusPlus.dir/GameObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp > CMakeFiles/enginePlusPlus.dir/GameObject.cpp.i
+
+CMakeFiles/enginePlusPlus.dir/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enginePlusPlus.dir/GameObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp -o CMakeFiles/enginePlusPlus.dir/GameObject.cpp.s
+
+CMakeFiles/enginePlusPlus.dir/Transform.cpp.o: CMakeFiles/enginePlusPlus.dir/flags.make
+CMakeFiles/enginePlusPlus.dir/Transform.cpp.o: ../Transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/enginePlusPlus.dir/Transform.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enginePlusPlus.dir/Transform.cpp.o -c /home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp
+
+CMakeFiles/enginePlusPlus.dir/Transform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enginePlusPlus.dir/Transform.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp > CMakeFiles/enginePlusPlus.dir/Transform.cpp.i
+
+CMakeFiles/enginePlusPlus.dir/Transform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enginePlusPlus.dir/Transform.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp -o CMakeFiles/enginePlusPlus.dir/Transform.cpp.s
+
+CMakeFiles/enginePlusPlus.dir/Vector.cpp.o: CMakeFiles/enginePlusPlus.dir/flags.make
+CMakeFiles/enginePlusPlus.dir/Vector.cpp.o: ../Vector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/enginePlusPlus.dir/Vector.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/enginePlusPlus.dir/Vector.cpp.o -c /home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp
+
+CMakeFiles/enginePlusPlus.dir/Vector.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/enginePlusPlus.dir/Vector.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp > CMakeFiles/enginePlusPlus.dir/Vector.cpp.i
+
+CMakeFiles/enginePlusPlus.dir/Vector.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/enginePlusPlus.dir/Vector.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp -o CMakeFiles/enginePlusPlus.dir/Vector.cpp.s
+
 # Object files for target enginePlusPlus
 enginePlusPlus_OBJECTS = \
-"CMakeFiles/enginePlusPlus.dir/main.cpp.o"
+"CMakeFiles/enginePlusPlus.dir/main.cpp.o" \
+"CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o" \
+"CMakeFiles/enginePlusPlus.dir/Transform.cpp.o" \
+"CMakeFiles/enginePlusPlus.dir/Vector.cpp.o"
 
 # External object files for target enginePlusPlus
 enginePlusPlus_EXTERNAL_OBJECTS =
 
 enginePlusPlus: CMakeFiles/enginePlusPlus.dir/main.cpp.o
+enginePlusPlus: CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o
+enginePlusPlus: CMakeFiles/enginePlusPlus.dir/Transform.cpp.o
+enginePlusPlus: CMakeFiles/enginePlusPlus.dir/Vector.cpp.o
 enginePlusPlus: CMakeFiles/enginePlusPlus.dir/build.make
 enginePlusPlus: /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.5.1
 enginePlusPlus: /usr/lib/x86_64-linux-gnu/libsfml-audio.so.2.5.1
 enginePlusPlus: /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.5.1
 enginePlusPlus: /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.5.1
 enginePlusPlus: CMakeFiles/enginePlusPlus.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable enginePlusPlus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable enginePlusPlus"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/enginePlusPlus.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

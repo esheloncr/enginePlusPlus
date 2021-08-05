@@ -6,13 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp
+GameObject.h
+/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.h
+
+/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.h
+Transform.h
+/home/zemlia/Документы/Projects/enginePlusPlus/Transform.h
+
+/home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp
+Transform.h
+/home/zemlia/Документы/Projects/enginePlusPlus/Transform.h
+
+/home/zemlia/Документы/Projects/enginePlusPlus/Transform.h
+Vector.h
+/home/zemlia/Документы/Projects/enginePlusPlus/Vector.h
+
+/home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp
+Vector.h
+/home/zemlia/Документы/Projects/enginePlusPlus/Vector.h
+
+/home/zemlia/Документы/Projects/enginePlusPlus/Vector.h
+
 /home/zemlia/Документы/Projects/enginePlusPlus/main.cpp
 SFML/Graphics.hpp
 -
-player.h
-/home/zemlia/Документы/Projects/enginePlusPlus/player.h
-iostream
--
-
-/home/zemlia/Документы/Projects/enginePlusPlus/player.h
 

@@ -81,12 +81,12 @@ clean: CMakeFiles/enginePlusPlus.dir/clean
 CMakeFiles/enginePlusPlus.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target enginePlusPlus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target enginePlusPlus"
 .PHONY : CMakeFiles/enginePlusPlus.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/enginePlusPlus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/enginePlusPlus.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/enginePlusPlus.dir/rule

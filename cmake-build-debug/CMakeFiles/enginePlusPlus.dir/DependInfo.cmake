@@ -8,6 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp" "/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o"
+  "/home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp" "/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles/enginePlusPlus.dir/Transform.cpp.o"
+  "/home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp" "/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles/enginePlusPlus.dir/Vector.cpp.o"
   "/home/zemlia/Документы/Projects/enginePlusPlus/main.cpp" "/home/zemlia/Документы/Projects/enginePlusPlus/cmake-build-debug/CMakeFiles/enginePlusPlus.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

@@ -129,6 +129,78 @@ enginePlusPlus/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/build
 .PHONY : enginePlusPlus/fast
 
+GameObject.o: GameObject.cpp.o
+.PHONY : GameObject.o
+
+# target to build an object file
+GameObject.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/GameObject.cpp.o
+.PHONY : GameObject.cpp.o
+
+GameObject.i: GameObject.cpp.i
+.PHONY : GameObject.i
+
+# target to preprocess a source file
+GameObject.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/GameObject.cpp.i
+.PHONY : GameObject.cpp.i
+
+GameObject.s: GameObject.cpp.s
+.PHONY : GameObject.s
+
+# target to generate assembly for a file
+GameObject.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/GameObject.cpp.s
+.PHONY : GameObject.cpp.s
+
+Transform.o: Transform.cpp.o
+.PHONY : Transform.o
+
+# target to build an object file
+Transform.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Transform.cpp.o
+.PHONY : Transform.cpp.o
+
+Transform.i: Transform.cpp.i
+.PHONY : Transform.i
+
+# target to preprocess a source file
+Transform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Transform.cpp.i
+.PHONY : Transform.cpp.i
+
+Transform.s: Transform.cpp.s
+.PHONY : Transform.s
+
+# target to generate assembly for a file
+Transform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Transform.cpp.s
+.PHONY : Transform.cpp.s
+
+Vector.o: Vector.cpp.o
+.PHONY : Vector.o
+
+# target to build an object file
+Vector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Vector.cpp.o
+.PHONY : Vector.cpp.o
+
+Vector.i: Vector.cpp.i
+.PHONY : Vector.i
+
+# target to preprocess a source file
+Vector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Vector.cpp.i
+.PHONY : Vector.cpp.i
+
+Vector.s: Vector.cpp.s
+.PHONY : Vector.s
+
+# target to generate assembly for a file
+Vector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/enginePlusPlus.dir/build.make CMakeFiles/enginePlusPlus.dir/Vector.cpp.s
+.PHONY : Vector.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +234,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... enginePlusPlus"
+	@echo "... GameObject.o"
+	@echo "... GameObject.i"
+	@echo "... GameObject.s"
+	@echo "... Transform.o"
+	@echo "... Transform.i"
+	@echo "... Transform.s"
+	@echo "... Vector.o"
+	@echo "... Vector.i"
+	@echo "... Vector.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -82,6 +82,24 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.cpp">
+			<Option target="enginePlusPlus"/>
+		</Unit>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/GameObject.h">
+			<Option target="enginePlusPlus"/>
+		</Unit>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/Transform.cpp">
+			<Option target="enginePlusPlus"/>
+		</Unit>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/Transform.h">
+			<Option target="enginePlusPlus"/>
+		</Unit>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/Vector.cpp">
+			<Option target="enginePlusPlus"/>
+		</Unit>
+		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/Vector.h">
+			<Option target="enginePlusPlus"/>
+		</Unit>
 		<Unit filename="/home/zemlia/Документы/Projects/enginePlusPlus/main.cpp">
 			<Option target="enginePlusPlus"/>
 		</Unit>
