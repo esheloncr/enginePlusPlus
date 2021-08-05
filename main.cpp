@@ -1,6 +1,4 @@
 #include <SFML/Graphics.hpp>
-#include "player.h"
-#include <iostream>
 #pragma once
 
 using namespace sf;
@@ -9,9 +7,7 @@ using namespace std;
 
 int main()
 {
-	// init
 	RenderWindow window(VideoMode(600, 600), "SFML Works!");
-	//window.setFramerateLimit(60);
 	const int W = 40;
 	const int H = 12;
 	Clock clock;

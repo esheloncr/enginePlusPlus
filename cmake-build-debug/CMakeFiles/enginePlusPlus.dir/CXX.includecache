@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zemlia/Документы/Projects/enginePlusPlus/main.cpp
+SFML/Graphics.hpp
+-
+player.h
+/home/zemlia/Документы/Projects/enginePlusPlus/player.h
+iostream
+-
+
+/home/zemlia/Документы/Projects/enginePlusPlus/player.h
+
