@@ -1,0 +1,3 @@
+﻿  main.cpp
+g:\web\old\testgame\main.cpp(42): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+  TestGame.vcxproj -> G:\WEB\Old\TestGame\x64\Debug\TestGame.exe
